@@ -19,6 +19,7 @@
 }
 
 html {
+    /* width: 100vw; */
     font-family: lato, serif;
     font-weight: 400;
     line-height: 20px;
@@ -26,7 +27,7 @@ html {
     color: #606060;
 }
 
-body, h2, p {
+html, body, h2, p {
     margin: 0;
 }
 
@@ -41,6 +42,7 @@ button {
 /* Hedear container */
 
 .header-color {
+    /* width: 100%; */
     background-color: #292929;
     box-shadow: inset 0 -6px 0 #1e1e1e;
     height: 130px;
@@ -80,7 +82,6 @@ button {
 }
 
 .posts-container {
-    /* width: 980px; */
     border: 1px solid #e1e0e0;
 }
 
@@ -139,7 +140,7 @@ button {
 }
 
 .post-text-container {
-    width: 445px;
+    max-width: 445px;
 }
 
 .post-item h2 {
@@ -388,6 +389,11 @@ footer .rights span:last-child {
 
     .menu-icon, .menu-icon-close {
         display: block;
+    }
+
+    .posts-container, .pages-btns {
+        border: none;
+        margin: 10px;
     }
 
     ul {
