@@ -311,17 +311,17 @@ footer .rights span:last-child {
 
 .modal-content {
     width: 70vw;
-    margin: 200px auto 0;
-    background-color: white;
-    border-radius: 10px;
-    padding: 5px 20px;
+    margin: 12rem auto 0;
+    background-color: rgba(245, 245, 245, 0.938);
+    border-radius: 0.83rem;
+    padding: 0.42rem 1.66rem;
 }
 
 .modal-content > p {
-    margin: 5px 0;
+    margin: 0.42rem 0;
     text-transform: uppercase;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.66rem;
+    line-height: 1.3;
     text-align: center;
     font-weight: bold;
     color: #5a5a5a;
@@ -330,48 +330,52 @@ footer .rights span:last-child {
 .modal-content .mail {
     text-align: center;
     font-size: 1.1rem;
-    margin: 40px 0;
+    margin: 3.33rem 0;
 }
 
 .modal-content input {
     border: 1px solid #68686898;
     border-radius: 2px;
-    padding: 2px;
-    margin-top: 2px;
-    width: 180px;
+    padding: 0.17rem;
+    margin-top: 0.17rem;
+    width: 15rem;
 }
 
 .modal-buttons {
     width: 100%;
-    margin: 5px 20px;
+    margin: 0.42rem 1.66rem;
 }
 
 .modal-content button {
     border: none;
-    border-radius: 10px;
-    padding: 7px 12px;
-    color: white;
-    font-size: 1rem;
-    transition: 0.3s;
+    padding: 0.58rem 1rem;
+    /* font-size: 1.2rem; */
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: 0.5s;
+    background-color: transparent;
+    border-radius: 5000px;
 }
 
 .modal-content button:first-child {
-    background-color: rgba(24, 185, 51, 0.836);
+    color: #58c93a;
+    border: 2px solid #58c93a;
 }
 
 .modal-content button:first-child:hover {
-    background-color: rgba(8, 114, 25, 0.836);
+    color: #347921;
+    border: 2px solid #347921;
 }
 
 .modal-content button:last-child {
-    background-color: #494949;
+    color: #c2c2c2;
+    border: 2px solid #c2c2c2;
 }
 
 .modal-content button:last-child:hover {
-    background-color: #2e2e2e;
+    color: #6d6d6d;
+    border: 2px solid #6d6d6d;
 }
-
-
 
 
 /* Helpers */
