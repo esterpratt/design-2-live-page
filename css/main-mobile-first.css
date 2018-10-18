@@ -74,7 +74,7 @@ a {
     letter-spacing: -0.8px;
 }
 
-.logo .dot, .menu-icon:hover, .menu-icon-close:hover {
+.logo .dot, .nav-icon:hover, .nav-icon-close:hover {
     color: #58c93a;
 }
 
@@ -129,6 +129,7 @@ a {
 
 .item-menu {
     background-color: #363636;
+    color: #8a8a8a;
     position: absolute;
     width: 100%;
     transition: 0.8s;
@@ -161,7 +162,7 @@ a {
     right: calc(100% + 1px);
 }
 
-.menu-icon, .menu-icon-close {
+.nav-icon, .nav-icon-close {
     display: block;
     font-size: 25px;
     border: none;
@@ -170,7 +171,7 @@ a {
     transition: 0.3s;
 }
 
-.menu-icon-close {
+.nav-icon-close {
     background-color: #29292900;
     margin: 15px;
 }
@@ -312,16 +313,28 @@ footer .rights span:last-child {
     transition: 0.5s;
 }
 
-.social-links button:hover {
-    background-color: #516fad;
-}
-
 .social-links button:not(:last-child) {
     margin-right: 20px;
 }
 
 .social-links button:last-child {
     margin-left: 10px;
+}
+
+.facebook-link:hover {
+    background-color: #516fad;
+}
+
+.twitter-link:hover {
+    background-color: rgb(29,161,242);
+}
+
+.be-link:hover {
+    background-color: rgb(0,87,255);
+}
+
+.dribble-link:hover {
+    background-color: rgb(234,76,137);
 }
 
 /* Modal */
@@ -337,7 +350,7 @@ footer .rights span:last-child {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #1d1d1d9d;
+    background-color: #5c5c5ca8;
     height: 100vh;
     width: 100vw;
     transition: 0.6s;
@@ -346,39 +359,36 @@ footer .rights span:last-child {
 
 .modal-content {
     width: 70vw;
+    height: 30vh;
     margin: 12rem auto 0;
-    background-color: rgba(245, 245, 245, 0.938);
+    background-color: #292929;
+    border: 2px solid #9b9b9b;
     border-radius: 0.83rem;
-    padding: 0.42rem 1.66rem;
+    padding: 1.6rem 0;
 }
 
-.modal-content > p {
-    margin: 0.42rem 0;
-    text-transform: uppercase;
-    font-size: 1.66rem;
-    line-height: 1.3;
+.modal-content > h2, .modal-content .mail {
+    color: #9b9b9b;
     text-align: center;
-    font-weight: bold;
-    color: #5a5a5a;
+}
+
+.modal-content > h2, .modal-buttons {
+    margin: 0 1.2rem;
 }
 
 .modal-content .mail {
-    text-align: center;
     font-size: 1.1rem;
-    margin: 3.33rem 0;
 }
 
 .modal-content input {
-    border: 1px solid #68686898;
     border-radius: 2px;
     padding: 0.17rem;
-    margin-top: 0.17rem;
-    width: 15rem;
+    margin-top: 0.5rem;
+    width: 14rem;
 }
 
 .modal-buttons {
-    width: 100%;
-    margin: 0.42rem 1.66rem;
+    width: 80%;
 }
 
 .modal-content button {
@@ -386,7 +396,7 @@ footer .rights span:last-child {
     padding: 0.58rem 1rem;
     font-weight: 700;
     letter-spacing: 0.5px;
-    transition: 0.5s;
+    transition: 0.3s;
     background-color: transparent;
     border-radius: 5000px;
 }
@@ -397,8 +407,8 @@ footer .rights span:last-child {
 }
 
 .modal-content button:first-child:hover {
-    color: #347921;
-    border: 2px solid #347921;
+    color: #292929;
+    background-color: #58c93a;
 }
 
 .modal-content button:last-child {
@@ -407,8 +417,8 @@ footer .rights span:last-child {
 }
 
 .modal-content button:last-child:hover {
-    color: #6d6d6d;
-    border: 2px solid #6d6d6d;
+    color: #292929;
+    background-color: #c2c2c2;
 }
 
 
@@ -461,7 +471,3 @@ footer .rights span:last-child {
 .position-relative {
     position: relative;
 }
-
-/* .fit-content {
-    width: fit-content;
-} */
