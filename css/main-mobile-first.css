@@ -103,7 +103,7 @@ a {
     height: 100vh;
     width: 18vh;
     top: 0;
-    right: -22vh;
+    right: -18vh;
     transition: 0.8s;
     z-index: 1;
 }
@@ -360,11 +360,12 @@ footer .rights span:last-child {
 .modal-content {
     width: 70vw;
     height: 30vh;
-    margin: 12rem auto 0;
+    margin: 9rem auto 0;
     background-color: #292929;
     border: 2px solid #9b9b9b;
     border-radius: 0.83rem;
     padding: 1.6rem 0;
+    overflow: hidden;
 }
 
 .modal-content > h2, .modal-content .mail {
@@ -383,7 +384,7 @@ footer .rights span:last-child {
 .modal-content input {
     border-radius: 2px;
     padding: 0.17rem;
-    margin-top: 0.5rem;
+    margin: 0.5rem 0;
     width: 14rem;
 }
 
